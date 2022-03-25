@@ -267,7 +267,9 @@ ion-icon {
     .p1,.p2,.p3 {
         display: none !important;
     }
-    .p4{
+}
+@media screen and (max-width:650px) {
+    .p4 {
         visibility: visible !important;
     }
 }
