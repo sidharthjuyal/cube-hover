@@ -45,6 +45,15 @@ ion-icon {
     color: white;
 }
 
+.container .p4 {
+    position: absolute;
+    top: -3%;
+    left: 45%;
+    color: white;
+    visibility: hidden;
+    font-weight:300;
+}
+
 .box {
     position: absolute;
     width: 146px;
@@ -255,7 +264,10 @@ ion-icon {
 }
 
 @media screen and (max-width:1200px) {
-    p {
+    .p1,.p2,.p3 {
         display: none !important;
+    }
+    .p4{
+        visibility: visible !important;
     }
 }
