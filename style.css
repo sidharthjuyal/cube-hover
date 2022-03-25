@@ -2,6 +2,7 @@ body {
     display: flex;
     justify-content: center;
     background: url(back.webp) center center/cover;
+    overflow-y:hidden;
 }
 
 ion-icon {
@@ -47,11 +48,12 @@ ion-icon {
 
 .container .p4 {
     position: absolute;
-    top: -3%;
-    left: 45%;
+    top: 5%;
+    left: 36%;
     color: white;
     visibility: hidden;
     font-weight:300;
+    text-align:center;
 }
 
 .box {
@@ -270,6 +272,15 @@ ion-icon {
 }
 @media screen and (max-width:650px) {
     .p4 {
+        left:42% !important;
+        top:-2% !important;
         visibility: visible !important;
+        font-size:large;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+        line-height:1.6rem;
+    }
+    .container{
+        margin-top:8rem;
+        margin-right:8rem;
     }
 }
