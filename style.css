@@ -19,6 +19,11 @@ ion-icon{
     position:relative;
 }
 
+.container p{
+    font-family:serif;
+    font-weight:700;
+}
+
 .container .p1 {
     position: absolute;
     top: 12%;
