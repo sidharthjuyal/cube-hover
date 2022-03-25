@@ -13,6 +13,10 @@ ion-icon{
     margin-right: 3rem;
     width:90vw;
     height:90vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
 }
 
 .container .p1 {
